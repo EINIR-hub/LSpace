@@ -1,1 +1,13 @@
-
+{
+  "pack_id": "daily_me",
+  "base_url": "https://raw.githubusercontent.com/EINIR-hub/LSpace/main/stickers/daily_me/",
+  "items": [
+    {
+      "id": "dm_sad",
+      "name": "Sadly",
+      "file": "SAD.png",
+      "price_lunas": 2,
+      "rarity": "Common"
+    }
+  ]
+}
