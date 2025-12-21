@@ -6,8 +6,8 @@
       "id": "dm_sad",
       "name": "Sadly",
       "file": "SAD.png",
-      "price_lunas": 2,
-      "rarity": "Common"
+      "price_lunas": 1,
+      "rank": "F"
     }
   ]
 }
