@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coronaGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9333ea;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="100" height="100" fill="#020202" rx="22" />
+  <g transform="translate(50, 50)">
+    <circle cx="0" cy="0" r="36" fill="url(#coronaGradient)" opacity="0.8" filter="url(#glow)" />
+    <circle cx="-2" cy="2" r="34" fill="#050505" stroke="#111" stroke-width="0.5" />
+    <text x="-2" y="12" 
+          font-family="'Orbitron', sans-serif" 
+          font-weight="900" 
+          font-size="42" 
+          fill="#ffffff" 
+          text-anchor="middle" 
+          letter-spacing="-3"
+          style="text-shadow: 0 4px 12px rgba(0,0,0,0.9);">
+      LS
+    </text>
+  </g>
+</svg>
